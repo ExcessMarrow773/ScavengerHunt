@@ -27,13 +27,17 @@ info = []
 def receive_data():
     data = request.json
     info.append({"data": data, "timestamp": time()})
-    logger.info("Received:", data)
+    logger.info(f"Received:{data}")
+    db.new_request(data["message"], data["device"], time(), raw=data)
     print(request)
     return jsonify({"status": "ok"})
 
 @app.route("/")
 def index():
-    return render_template('index.html', data=info)
+
+    requests = db.get_requests()
+
+    return render_template('index.html', data=info, requests=requests)
     
 
 if __name__ == "__main__":
