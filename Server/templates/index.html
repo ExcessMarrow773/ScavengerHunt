@@ -1,0 +1,9 @@
+<ul>
+{% for item in data %}
+        <li>{{item.data.message}}
+        <ul>
+        <li>{{item.data}}</li>
+        <li>{{item['timestamp']}}</li>
+        </ul>
+{% endfor %}
+</ul>

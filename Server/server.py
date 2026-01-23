@@ -1,5 +1,9 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
+from db import dbHandler
+
 import logging, datetime
+
+db = dbHandler()
 
 def time():
     return datetime.datetime.now()
@@ -24,11 +28,12 @@ def receive_data():
     data = request.json
     info.append({"data": data, "timestamp": time()})
     logger.info("Received:", data)
+    print(request)
     return jsonify({"status": "ok"})
 
 @app.route("/")
 def index():
-    return jsonify({"data": info})
+    return render_template('index.html', data=info)
     
 
 if __name__ == "__main__":
