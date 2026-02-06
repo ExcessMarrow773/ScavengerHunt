@@ -1,8 +1,8 @@
 <ul>
 {% for item in requests %}
-        <li>{{item.data.message}}
+        <li>{{item.message}}
         <ul>
-        <li>{{item.data}}</li>
+        <li>{{item}}</li>
         <li>{{item['timestamp']}}</li>
         </ul>
 {% endfor %}
