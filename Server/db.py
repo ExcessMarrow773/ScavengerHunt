@@ -25,5 +25,10 @@ class dbHandler:
 		self.conn.commit()
 		self.conn.close()
 
+		output = []
+
+		for i in requests:
+			output.append(dict(i[0]))
+
 		return requests
 
