@@ -1,52 +1,66 @@
+from machine import Pin
 import network
 import urequests
-import json
 import time
 
-ssid = "XTH_1-2972"
-password = "p{4615E4"
+button = Pin(14, Pin.IN, Pin.PULL_UP)
 
-SERVER_IP = "192.168.1.199"  # <-- change this
+where = "School"
+
+if where == "School":
+    ssid = "XTH_1-2972"
+    password = "p{4615E4"
+    SERVER_IP = "192.168.1.199"
+else:
+    ssid = "FWFamily"
+    password = "Hdosfftvt2007!"
+    SERVER_IP = "192.168.68.138"
+
 URL = "http://" + SERVER_IP + ":5000/data"
 
-
+# ---------- WiFi ----------
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
 wlan.connect(ssid, password)
 
 print("Connecting to WiFi...", end="")
 
-timeout = 10  # seconds
+timeout = 10
 start = time.time()
 
 while not wlan.isconnected():
     if time.time() - start > timeout:
         print("\nFailed to connect")
-        break
+        raise RuntimeError("WiFi connection failed")
     time.sleep(0.5)
     print(".", end="")
 
-if wlan.isconnected():
-    print("\nConnected!")
-    print("IP address:", wlan.ifconfig()[0])
-    
-    
-# ---------- Send data ----------
+print("\nConnected!")
+print("IP address:", wlan.ifconfig()[0])
+
+# ---------- Data ----------
 payload = {
     "device": "pico-w",
-    "uptime": time.ticks_ms()
+    "message": "MAN"
 }
 
-headers = {"Content-Type": "application/json"}
-for i in range(7):
-    response = urequests.post(
-        URL,
-        data=json.dumps(payload),
-        headers=headers
-    )
+was_pressed = False
 
-    print("Status:", response.status_code)
-    print(response.text)
-    time.sleep(1)
+while True:
+    if button.value() == 0 and not was_pressed:
+        was_pressed = True
+        print("Button pressed")
 
-response.close()
+        try:
+            response = urequests.post(URL, json=payload)
+            print("Status:", response.status_code)
+            print(response.text)
+            response.close()
+        except Exception as e:
+            print("POST failed:", e)
+
+    elif button.value() == 1 and was_pressed:
+        was_pressed = False 
+
+    time.sleep(0.1)
+
