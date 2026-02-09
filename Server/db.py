@@ -19,7 +19,7 @@ class dbHandler:
 		self.conn.close()
 
 
-	def get_requests(self) -> list:
+	def get_requests(self, backwards=False) -> list:
 		self.conn = sqlite3.connect('db.sqlite3')
 		self.cursor = self.conn.cursor()
 		requests = self.cursor.execute("SELECT raw FROM requests").fetchall()
@@ -31,5 +31,14 @@ class dbHandler:
 		for i in requests:
 			output.append(json.loads(i[0]))
 
+		if backwards: output.reverse()
+
 		return output
+	
+	def reset_DB(self):
+		self.conn = sqlite3.connect('db.sqlite3')
+		self.cursor = self.conn.cursor()
+		self.conn.execute("DELETE FROM requests")
+		self.conn.commit()
+		self.conn.close()
 

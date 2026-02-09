@@ -1,25 +1,11 @@
-from flask import Flask, request, jsonify, render_template, redirect, url_for
-from flask_wtf import CSRFProtect
-from flask_bootstrap import Bootstrap5
+from flask import Flask, request, jsonify, render_template, redirect
 
 from db import dbHandler
 
-from Forms import ResetForm
-
 import logging, datetime
-import secrets
 
 
 app = Flask(__name__)
-
-foo = secrets.token_urlsafe(16)
-app.secret_key = foo
-
-# Bootstrap-Flask requires this line
-bootstrap = Bootstrap5(app)
-# Flask-WTF requires this line
-csrf = CSRFProtect(app)
-
 
 db = dbHandler()
 
@@ -37,7 +23,12 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 
-
+@app.route('/run-function', methods=['POST'])
+def reset_db():
+    """This route processes the button click."""
+    result = db.reset_DB()
+    # Redirect back to the main page
+    return redirect('/')
 
 @app.route("/data", methods=["POST"])
 def receive_data():
@@ -51,10 +42,9 @@ def receive_data():
 
 @app.route("/")
 def index():
+    requests = db.get_requests(backwards=True)
 
-    requests = db.get_requests()
-
-    return render_template('index.html', requests=requests)
+    return render_template('index.html', requests=requests, strRequests=str(requests))
     
 
 if __name__ == "__main__":
