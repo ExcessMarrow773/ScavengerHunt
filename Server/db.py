@@ -13,6 +13,7 @@ class dbHandler:
 		self.conn = sqlite3.connect('db.sqlite3')
 		self.cursor = self.conn.cursor()
 		raw = json.dumps(raw)
+		
 		self.cursor.execute("INSERT INTO requests VALUES (?, ?, ?, ?)", (message, device, timestamp, raw))
 		self.conn.commit()
 		self.conn.close()
