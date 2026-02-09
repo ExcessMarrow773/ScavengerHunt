@@ -5,6 +5,9 @@ import time
 
 button = Pin(14, Pin.IN, Pin.PULL_UP)
 
+led = machine.Pin("LED", machine.Pin.OUT)
+
+
 where = "School"
 
 if where == "School":
@@ -14,7 +17,7 @@ if where == "School":
 else:
     ssid = "FWFamily"
     password = "Hdosfftvt2007!"
-    SERVER_IP = "192.168.68.138"
+    SERVER_IP = "192.168.68.134"
 
 URL = "http://" + SERVER_IP + ":5000/data"
 
@@ -55,6 +58,10 @@ while True:
             response = urequests.post(URL, json=payload)
             print("Status:", response.status_code)
             print(response.text)
+            
+            if "LED" in response.text
+                led.value(response.text["LED"])
+            
             response.close()
         except Exception as e:
             print("POST failed:", e)
