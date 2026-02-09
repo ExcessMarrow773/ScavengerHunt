@@ -28,7 +28,7 @@ class dbHandler:
 		output = []
 
 		for i in requests:
-			output.append(dict(i[0]))
+			output.append(json.loads(i[0]))
 
-		return requests
+		return output
 

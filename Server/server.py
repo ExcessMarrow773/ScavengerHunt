@@ -19,15 +19,14 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 
-app = Flask(__name__)
 
-info = []
 
 @app.route("/data", methods=["POST"])
 def receive_data():
     data = request.json
-    info.append({"data": data, "timestamp": time()})
+    data["timestamp"] = str(time())
     logger.info(f"Received:{data}")
+    print(time())
     db.new_request(data["message"], data["device"], time(), raw=data)
     print(request)
     return jsonify({"status": "ok"})
@@ -37,7 +36,7 @@ def index():
 
     requests = db.get_requests()
 
-    return render_template('index.html', data=info, requests=requests)
+    return render_template('index.html', requests=requests)
     
 
 if __name__ == "__main__":

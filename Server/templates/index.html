@@ -1,6 +1,6 @@
 <ul>
 {% for item in requests %}
-        <li>{{item.message}}
+        <li>{{item["message"]}}
         <ul>
         <li>{{item}}</li>
         <li>{{item['timestamp']}}</li>
