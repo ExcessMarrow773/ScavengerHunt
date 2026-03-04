@@ -1,21 +1,24 @@
+<head>
+        <link rel="stylesheet" href="/static/style.css">
+</head>
+
+ 
+{% for item in requests %}
+        <div class="request-card">
+                <div class="request-card-label">{{item["device"]}}</div>
+                {{item}}
+                <small>{{item['timestamp']}}</small>
+        </div>
+{% endfor %}
+<br>
 <form method="POST" action="{{ url_for('reset_db') }}">
         <button type="submit">Reset Database</button>
 </form>
-
-<ul>
-{% for item in requests %}
-        <li>{{item["message"]}}
-        <ul>
-        <li>{{item}}</li>
-        <li>{{item['timestamp']}}</li>
-        </ul>
-{% endfor %}
-</ul>
-
-
 <hr>
+
 <details>
         <summary>Raw Request Data</summary>
         <!-- Content that will be hidden by default goes here -->
         <p>{{requests}}</p>
 </details>
+
