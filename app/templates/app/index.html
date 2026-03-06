@@ -7,15 +7,12 @@
  
 {% for item in requests %}
         <div class="request-card">
-                <div class="request-card-label">{{item["device"]}}</div>
-                {{item}}
-                <small>{{item['timestamp']}}</small>
+                <div class="request-card-label">{{ item.device }}</div>
+                {{ item }}
+                <small>{{ item.created_on }}</small>
         </div>
 {% endfor %}
 <br>
-<form method="POST" action="{{ url_for('reset_db') }}">
-        <button type="submit">Reset Database</button>
-</form>
 <hr>
 
 <details>
