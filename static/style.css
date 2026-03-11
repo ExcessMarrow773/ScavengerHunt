@@ -61,16 +61,21 @@ body {
     letter-spacing: 0.08em;
 }
 
-button {
-    border: 1px solid var(--accent);
-    background-color: var(--accent);
-    color: var(--accent-text);
-    padding: 0.4rem;
-    border-radius: var(--radius);
-    text-decoration: none;
-    font-size: inherit;
-    font-family: inherit;
-    cursor: pointer;
-    display: inline-block;
-    text-align: center;
+a, a:visited { color: var(--accent); }
+a:hover      { text-decoration: none; }
+
+/* ── Buttons ────────────────────────────────────────────────── */
+button, .button, a.button,
+input[type="submit"], input[type="reset"], input[type="button"] {
+  border: 1px solid var(--accent);
+  background-color: var(--accent);
+  color: var(--accent-text);
+  padding: 0.4rem;
+  border-radius: var(--radius);
+  text-decoration: none;
+  font-size: inherit;
+  font-family: inherit;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
 }

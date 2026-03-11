@@ -1,0 +1,23 @@
+{% load static %}
+
+<head>
+        <link rel="stylesheet" href="{% static "style.css" %}">
+</head>
+
+ 
+{% for item in requests %}
+        <div class="request-card">
+                <div class="request-card-label">{{ item.device }}</div>
+                {{ item }}
+                <small>{{ item.created_on }}</small>
+        </div>
+{% endfor %}
+<br>
+<hr>
+
+<details>
+        <summary>Raw Request Data</summary>
+        <!-- Content that will be hidden by default goes here -->
+        <p>{{requests}}</p>
+</details>
+
