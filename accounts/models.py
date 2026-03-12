@@ -5,6 +5,8 @@ from django.contrib.auth.validators import UnicodeUsernameValidator
 from django.core import validators
 from django.utils.translation import gettext_lazy as _
 
+from app.models import Clue
+
 # Create your models here.
 
 class CustomUsernameValidator(UnicodeUsernameValidator):
@@ -25,3 +27,5 @@ class CustomUser(AbstractUser):
             'Required. 150 characters or fewer. Letters, digits and +/-/_ only.'
         ),
     )
+      
+	current_clue = models.ForeignKey(Clue)

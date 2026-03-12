@@ -1,10 +1,5 @@
-{% load static %}
-
-<head>
-        <link rel="stylesheet" href="{% static "style.css" %}">
-</head>
-
- 
+{% extends "base.html" %}
+{% block page_content %}
 {% for item in requests %}
         <div class="request-card">
                 <div class="request-card-label">{{ item.device }}</div>
@@ -21,3 +16,4 @@
         <p>{{requests}}</p>
 </details>
 
+{% endblock page_content %} 

@@ -6,7 +6,6 @@ from .models import CustomUser
 # Register your models here.
 
 class CustomUserAdmin(UserAdmin):
-	readonly_fields = ('followers_display', 'follower_count')
 	
 	fieldsets = (
 		(None, {

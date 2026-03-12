@@ -1,0 +1,591 @@
+2026-01-22 20:13:03,477 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.68.138:5000
+2026-01-22 20:13:03,478 | INFO | [33mPress CTRL+C to quit[0m
+2026-01-22 20:13:03,486 | INFO |  * Restarting with stat
+2026-01-22 20:13:04,006 | WARNING |  * Debugger is active!
+2026-01-22 20:13:04,007 | INFO |  * Debugger PIN: 889-736-344
+2026-01-22 20:13:05,147 | INFO | 192.168.68.132 - - [22/Jan/2026 20:13:05] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-01-22 20:13:05,197 | INFO | 192.168.68.132 - - [22/Jan/2026 20:13:05] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-01-22 20:13:05,200 | INFO | 192.168.68.132 - - [22/Jan/2026 20:13:05] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-01-22 20:13:05,255 | INFO | 192.168.68.132 - - [22/Jan/2026 20:13:05] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-01-22 20:13:12,989 | INFO | 192.168.68.132 - - [22/Jan/2026 20:13:12] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-01-22 20:13:13,079 | INFO | 192.168.68.132 - - [22/Jan/2026 20:13:13] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-01-22 20:13:13,086 | INFO | 192.168.68.132 - - [22/Jan/2026 20:13:13] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-01-22 20:13:13,152 | INFO | 192.168.68.132 - - [22/Jan/2026 20:13:13] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-01-22 20:13:14,379 | INFO | 192.168.68.132 - - [22/Jan/2026 20:13:14] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-01-22 20:13:14,424 | INFO | 192.168.68.132 - - [22/Jan/2026 20:13:14] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-01-22 20:13:14,429 | INFO | 192.168.68.132 - - [22/Jan/2026 20:13:14] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-01-22 20:13:14,491 | INFO | 192.168.68.132 - - [22/Jan/2026 20:13:14] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-01-22 20:13:14,970 | INFO | 192.168.68.132 - - [22/Jan/2026 20:13:14] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-01-22 20:13:15,011 | INFO | 192.168.68.132 - - [22/Jan/2026 20:13:15] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-01-22 20:13:15,016 | INFO | 192.168.68.132 - - [22/Jan/2026 20:13:15] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-01-22 20:13:15,072 | INFO | 192.168.68.132 - - [22/Jan/2026 20:13:15] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-01-22 20:13:27,128 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/server.py', reloading
+2026-01-22 20:13:27,272 | INFO |  * Restarting with stat
+2026-01-22 20:13:27,787 | WARNING |  * Debugger is active!
+2026-01-22 20:13:27,788 | INFO |  * Debugger PIN: 889-736-344
+2026-01-22 20:13:27,835 | INFO | 192.168.68.132 - - [22/Jan/2026 20:13:27] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-01-22 20:13:27,890 | INFO | 192.168.68.132 - - [22/Jan/2026 20:13:27] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-01-22 20:13:27,893 | INFO | 192.168.68.132 - - [22/Jan/2026 20:13:27] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-01-22 20:13:27,950 | INFO | 192.168.68.132 - - [22/Jan/2026 20:13:27] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-01-22 20:13:27,965 | INFO | 192.168.68.132 - - [22/Jan/2026 20:13:27] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-01-22 20:13:28,032 | INFO | 192.168.68.132 - - [22/Jan/2026 20:13:28] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-01-22 20:13:28,035 | INFO | 192.168.68.132 - - [22/Jan/2026 20:13:28] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-01-22 20:13:28,864 | INFO | 192.168.68.132 - - [22/Jan/2026 20:13:28] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-01-22 20:13:28,903 | INFO | 192.168.68.132 - - [22/Jan/2026 20:13:28] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-01-22 20:13:28,908 | INFO | 192.168.68.132 - - [22/Jan/2026 20:13:28] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-01-22 20:13:28,967 | INFO | 192.168.68.132 - - [22/Jan/2026 20:13:28] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-01-22 21:59:04,179 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.68.134:5000
+2026-01-22 21:59:04,180 | INFO | [33mPress CTRL+C to quit[0m
+2026-01-22 21:59:04,188 | INFO |  * Restarting with stat
+2026-01-22 21:59:04,639 | WARNING |  * Debugger is active!
+2026-01-22 21:59:04,640 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 21:59:53,951 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/server.py', reloading
+2026-01-22 21:59:54,079 | INFO |  * Restarting with stat
+2026-01-22 21:59:54,548 | WARNING |  * Debugger is active!
+2026-01-22 21:59:54,549 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 21:59:58,593 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/server.py', reloading
+2026-01-22 21:59:58,739 | INFO |  * Restarting with stat
+2026-01-22 21:59:59,399 | WARNING |  * Debugger is active!
+2026-01-22 21:59:59,401 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:00:00,427 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/server.py', reloading
+2026-01-22 22:00:00,550 | INFO |  * Restarting with stat
+2026-01-22 22:00:01,016 | WARNING |  * Debugger is active!
+2026-01-22 22:00:01,018 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:00:05,076 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/server.py', reloading
+2026-01-22 22:00:05,204 | INFO |  * Restarting with stat
+2026-01-22 22:00:05,749 | WARNING |  * Debugger is active!
+2026-01-22 22:00:05,751 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:00:06,780 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/server.py', reloading
+2026-01-22 22:00:06,912 | INFO |  * Restarting with stat
+2026-01-22 22:00:07,378 | WARNING |  * Debugger is active!
+2026-01-22 22:00:07,379 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:02:50,272 | INFO | 192.168.68.116 - - [22/Jan/2026 22:02:50] "GET / HTTP/1.1" 200 -
+2026-01-22 22:03:01,171 | INFO | 192.168.68.116 - - [22/Jan/2026 22:03:01] "GET / HTTP/1.1" 200 -
+2026-01-22 22:03:01,421 | INFO | 192.168.68.116 - - [22/Jan/2026 22:03:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-22 22:03:33,886 | INFO | Received:
+2026-01-22 22:03:33,890 | INFO | 192.168.68.135 - - [22/Jan/2026 22:03:33] "POST /data HTTP/1.0" 200 -
+2026-01-22 22:03:37,404 | INFO | 192.168.68.116 - - [22/Jan/2026 22:03:37] "GET / HTTP/1.1" 200 -
+2026-01-22 22:03:40,169 | INFO | 192.168.68.116 - - [22/Jan/2026 22:03:40] "GET / HTTP/1.1" 200 -
+2026-01-22 22:03:44,483 | INFO | 192.168.68.116 - - [22/Jan/2026 22:03:44] "GET / HTTP/1.1" 200 -
+2026-01-22 22:03:51,096 | INFO | 192.168.68.116 - - [22/Jan/2026 22:03:51] "GET / HTTP/1.1" 200 -
+2026-01-22 22:03:51,885 | INFO | 192.168.68.116 - - [22/Jan/2026 22:03:51] "GET / HTTP/1.1" 200 -
+2026-01-22 22:03:52,615 | INFO | 192.168.68.116 - - [22/Jan/2026 22:03:52] "GET / HTTP/1.1" 200 -
+2026-01-22 22:03:53,401 | INFO | 192.168.68.116 - - [22/Jan/2026 22:03:53] "GET / HTTP/1.1" 200 -
+2026-01-22 22:03:54,184 | INFO | 192.168.68.116 - - [22/Jan/2026 22:03:54] "GET / HTTP/1.1" 200 -
+2026-01-22 22:03:55,242 | INFO | 192.168.68.116 - - [22/Jan/2026 22:03:55] "GET / HTTP/1.1" 200 -
+2026-01-22 22:03:58,789 | INFO | 192.168.68.116 - - [22/Jan/2026 22:03:58] "GET / HTTP/1.1" 200 -
+2026-01-22 22:04:07,961 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/server.py', reloading
+2026-01-22 22:04:08,135 | INFO |  * Restarting with stat
+2026-01-22 22:04:10,828 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.68.134:5000
+2026-01-22 22:04:10,828 | INFO | [33mPress CTRL+C to quit[0m
+2026-01-22 22:04:10,839 | INFO |  * Restarting with stat
+2026-01-22 22:04:11,310 | WARNING |  * Debugger is active!
+2026-01-22 22:04:11,311 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:04:15,202 | INFO | Received:
+2026-01-22 22:04:15,205 | INFO | 192.168.68.135 - - [22/Jan/2026 22:04:15] "POST /data HTTP/1.0" 200 -
+2026-01-22 22:04:21,157 | INFO | 192.168.68.116 - - [22/Jan/2026 22:04:21] "GET / HTTP/1.1" 200 -
+2026-01-22 22:04:45,996 | INFO | 192.168.68.116 - - [22/Jan/2026 22:04:45] "GET / HTTP/1.1" 200 -
+2026-01-22 22:06:15,085 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:06:15,219 | INFO |  * Restarting with stat
+2026-01-22 22:06:15,673 | WARNING |  * Debugger is active!
+2026-01-22 22:06:15,674 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:06:17,698 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:06:17,832 | INFO |  * Restarting with stat
+2026-01-22 22:06:18,311 | WARNING |  * Debugger is active!
+2026-01-22 22:06:18,312 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:06:19,333 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:06:19,470 | INFO |  * Restarting with stat
+2026-01-22 22:06:19,941 | WARNING |  * Debugger is active!
+2026-01-22 22:06:19,942 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:06:22,969 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:06:23,106 | INFO |  * Restarting with stat
+2026-01-22 22:06:23,554 | WARNING |  * Debugger is active!
+2026-01-22 22:06:23,555 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:06:34,609 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:06:34,746 | INFO |  * Restarting with stat
+2026-01-22 22:06:35,196 | WARNING |  * Debugger is active!
+2026-01-22 22:06:35,197 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:06:42,244 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:06:42,382 | INFO |  * Restarting with stat
+2026-01-22 22:06:42,945 | WARNING |  * Debugger is active!
+2026-01-22 22:06:42,946 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:06:44,975 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:06:45,101 | INFO |  * Restarting with stat
+2026-01-22 22:06:45,565 | WARNING |  * Debugger is active!
+2026-01-22 22:06:45,566 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:06:59,647 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:06:59,777 | INFO |  * Restarting with stat
+2026-01-22 22:07:00,322 | WARNING |  * Debugger is active!
+2026-01-22 22:07:00,323 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:07:06,372 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:07:06,535 | INFO |  * Restarting with stat
+2026-01-22 22:07:07,158 | WARNING |  * Debugger is active!
+2026-01-22 22:07:07,159 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:07:21,226 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:07:21,440 | INFO |  * Restarting with stat
+2026-01-22 22:07:21,920 | WARNING |  * Debugger is active!
+2026-01-22 22:07:21,921 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:07:22,945 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:07:23,103 | INFO |  * Restarting with stat
+2026-01-22 22:07:23,682 | WARNING |  * Debugger is active!
+2026-01-22 22:07:23,683 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:07:29,726 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:07:29,870 | INFO |  * Restarting with stat
+2026-01-22 22:07:30,399 | WARNING |  * Debugger is active!
+2026-01-22 22:07:30,400 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:07:35,448 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:07:35,662 | INFO |  * Restarting with stat
+2026-01-22 22:07:36,868 | WARNING |  * Debugger is active!
+2026-01-22 22:07:36,870 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:07:37,925 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:07:38,285 | INFO |  * Restarting with stat
+2026-01-22 22:07:39,570 | WARNING |  * Debugger is active!
+2026-01-22 22:07:39,572 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:07:45,710 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:07:45,837 | INFO |  * Restarting with stat
+2026-01-22 22:07:46,286 | WARNING |  * Debugger is active!
+2026-01-22 22:07:46,287 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:07:51,326 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:07:51,482 | INFO |  * Restarting with stat
+2026-01-22 22:07:51,943 | WARNING |  * Debugger is active!
+2026-01-22 22:07:51,944 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:07:53,980 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:07:54,174 | INFO |  * Restarting with stat
+2026-01-22 22:07:54,868 | WARNING |  * Debugger is active!
+2026-01-22 22:07:54,870 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:07:56,900 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:07:57,033 | INFO |  * Restarting with stat
+2026-01-22 22:07:57,500 | WARNING |  * Debugger is active!
+2026-01-22 22:07:57,501 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:08:00,528 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:08:00,655 | INFO |  * Restarting with stat
+2026-01-22 22:08:01,348 | WARNING |  * Debugger is active!
+2026-01-22 22:08:01,349 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:08:06,393 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:08:06,538 | INFO |  * Restarting with stat
+2026-01-22 22:08:07,289 | WARNING |  * Debugger is active!
+2026-01-22 22:08:07,291 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:08:09,317 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:08:09,447 | INFO |  * Restarting with stat
+2026-01-22 22:08:09,978 | WARNING |  * Debugger is active!
+2026-01-22 22:08:09,980 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:08:16,031 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:08:16,158 | INFO |  * Restarting with stat
+2026-01-22 22:08:16,605 | WARNING |  * Debugger is active!
+2026-01-22 22:08:16,606 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:08:23,643 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:08:23,768 | INFO |  * Restarting with stat
+2026-01-22 22:08:24,217 | WARNING |  * Debugger is active!
+2026-01-22 22:08:24,218 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:08:58,444 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:08:58,581 | INFO |  * Restarting with stat
+2026-01-22 22:08:59,232 | WARNING |  * Debugger is active!
+2026-01-22 22:08:59,234 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:09:00,254 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:09:00,379 | INFO |  * Restarting with stat
+2026-01-22 22:09:00,836 | WARNING |  * Debugger is active!
+2026-01-22 22:09:00,837 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:09:03,869 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:09:04,020 | INFO |  * Restarting with stat
+2026-01-22 22:09:04,643 | WARNING |  * Debugger is active!
+2026-01-22 22:09:04,657 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:09:07,702 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:09:07,826 | INFO |  * Restarting with stat
+2026-01-22 22:09:08,287 | WARNING |  * Debugger is active!
+2026-01-22 22:09:08,288 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:09:10,318 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:09:10,455 | INFO |  * Restarting with stat
+2026-01-22 22:09:11,240 | WARNING |  * Debugger is active!
+2026-01-22 22:09:11,246 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:09:12,267 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:09:12,439 | INFO |  * Restarting with stat
+2026-01-22 22:09:13,037 | WARNING |  * Debugger is active!
+2026-01-22 22:09:13,038 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:09:15,061 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:09:15,193 | INFO |  * Restarting with stat
+2026-01-22 22:09:15,795 | WARNING |  * Debugger is active!
+2026-01-22 22:09:15,796 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:09:16,820 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:09:16,995 | INFO |  * Restarting with stat
+2026-01-22 22:09:17,689 | WARNING |  * Debugger is active!
+2026-01-22 22:09:17,691 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:09:18,719 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:09:18,892 | INFO |  * Restarting with stat
+2026-01-22 22:09:19,587 | WARNING |  * Debugger is active!
+2026-01-22 22:09:19,590 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:09:21,623 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:09:21,753 | INFO |  * Restarting with stat
+2026-01-22 22:09:22,198 | WARNING |  * Debugger is active!
+2026-01-22 22:09:22,200 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:09:44,351 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:09:44,475 | INFO |  * Restarting with stat
+2026-01-22 22:09:45,167 | WARNING |  * Debugger is active!
+2026-01-22 22:09:45,168 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:09:49,206 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:09:49,393 | INFO |  * Restarting with stat
+2026-01-22 22:09:50,010 | WARNING |  * Debugger is active!
+2026-01-22 22:09:50,011 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:09:53,041 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:09:53,192 | INFO |  * Restarting with stat
+2026-01-22 22:09:53,654 | WARNING |  * Debugger is active!
+2026-01-22 22:09:53,655 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:09:55,678 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:09:55,801 | INFO |  * Restarting with stat
+2026-01-22 22:09:56,264 | WARNING |  * Debugger is active!
+2026-01-22 22:09:56,266 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:10:05,328 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/server.py', reloading
+2026-01-22 22:10:05,455 | INFO |  * Restarting with stat
+2026-01-22 22:10:06,142 | WARNING |  * Debugger is active!
+2026-01-22 22:10:06,143 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:10:11,181 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/server.py', reloading
+2026-01-22 22:10:11,311 | INFO |  * Restarting with stat
+2026-01-22 22:10:11,783 | WARNING |  * Debugger is active!
+2026-01-22 22:10:11,784 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:10:22,843 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/server.py', reloading
+2026-01-22 22:10:23,001 | INFO |  * Restarting with stat
+2026-01-22 22:10:23,515 | WARNING |  * Debugger is active!
+2026-01-22 22:10:23,516 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:10:26,551 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/server.py', reloading
+2026-01-22 22:10:26,694 | INFO |  * Restarting with stat
+2026-01-22 22:10:27,181 | WARNING |  * Debugger is active!
+2026-01-22 22:10:27,182 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:10:28,205 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/server.py', reloading
+2026-01-22 22:10:28,336 | INFO |  * Restarting with stat
+2026-01-22 22:10:28,812 | WARNING |  * Debugger is active!
+2026-01-22 22:10:28,813 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:10:32,846 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/server.py', reloading
+2026-01-22 22:10:32,971 | INFO |  * Restarting with stat
+2026-01-22 22:10:33,434 | WARNING |  * Debugger is active!
+2026-01-22 22:10:33,435 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:11:08,634 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:11:08,811 | INFO |  * Restarting with stat
+2026-01-22 22:11:09,398 | WARNING |  * Debugger is active!
+2026-01-22 22:11:09,400 | INFO |  * Debugger PIN: 835-003-592
+2026-01-22 22:11:10,429 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-01-22 22:11:10,582 | INFO |  * Restarting with stat
+2026-01-23 16:21:03,328 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.68.134:5000
+2026-01-23 16:21:03,328 | INFO | [33mPress CTRL+C to quit[0m
+2026-01-23 16:21:03,337 | INFO |  * Restarting with stat
+2026-01-23 16:21:03,947 | WARNING |  * Debugger is active!
+2026-01-23 16:21:03,949 | INFO |  * Debugger PIN: 316-285-096
+2026-01-23 16:21:25,310 | INFO | Received:{'message': 'BAN MAN', 'device': 'pico-w'}
+2026-01-23 16:21:25,321 | INFO | 192.168.68.137 - - [23/Jan/2026 16:21:25] "POST /data HTTP/1.0" 200 -
+2026-01-23 16:21:31,454 | INFO | 192.168.68.133 - - [23/Jan/2026 16:21:31] "GET / HTTP/1.1" 200 -
+2026-01-23 16:21:44,224 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.68.134:5000
+2026-01-23 16:21:44,224 | INFO | [33mPress CTRL+C to quit[0m
+2026-01-23 16:21:44,233 | INFO |  * Restarting with stat
+2026-01-23 16:21:44,843 | WARNING |  * Debugger is active!
+2026-01-23 16:21:44,844 | INFO |  * Debugger PIN: 316-285-096
+2026-01-23 16:21:45,544 | INFO | 192.168.68.133 - - [23/Jan/2026 16:21:45] "GET / HTTP/1.1" 200 -
+2026-01-23 16:21:47,724 | INFO | 192.168.68.133 - - [23/Jan/2026 16:21:47] "GET / HTTP/1.1" 200 -
+2026-01-23 16:22:01,295 | INFO | 192.168.68.133 - - [23/Jan/2026 16:22:01] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-01-23 16:22:01,572 | INFO | 192.168.68.133 - - [23/Jan/2026 16:22:01] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-01-23 16:22:01,575 | INFO | 192.168.68.133 - - [23/Jan/2026 16:22:01] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-01-23 16:22:25,169 | INFO | 192.168.68.133 - - [23/Jan/2026 16:22:25] "GET / HTTP/1.1" 200 -
+2026-01-23 16:23:06,903 | INFO | 192.168.68.133 - - [23/Jan/2026 16:23:06] "GET / HTTP/1.1" 200 -
+2026-01-23 16:42:20,161 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.68.134:5000
+2026-01-23 16:42:20,162 | INFO | [33mPress CTRL+C to quit[0m
+2026-01-23 16:42:20,172 | INFO |  * Restarting with stat
+2026-01-23 16:42:20,785 | WARNING |  * Debugger is active!
+2026-01-23 16:42:20,786 | INFO |  * Debugger PIN: 316-285-096
+2026-02-08 15:36:25,039 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.68.134:5000
+2026-02-08 15:36:25,040 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-08 15:36:25,043 | INFO |  * Restarting with stat
+2026-02-08 15:36:25,513 | WARNING |  * Debugger is active!
+2026-02-08 15:36:25,514 | INFO |  * Debugger PIN: 134-749-956
+2026-02-08 15:37:14,216 | INFO | Received:{'message': 'MAN', 'device': 'pico-w'}
+2026-02-08 15:37:14,230 | INFO | 192.168.68.133 - - [08/Feb/2026 15:37:14] "POST /data HTTP/1.0" 200 -
+2026-02-08 15:37:55,699 | INFO | 192.168.68.136 - - [08/Feb/2026 15:37:55] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-08 15:37:55,945 | INFO | 192.168.68.136 - - [08/Feb/2026 15:37:55] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-02-08 15:37:55,947 | INFO | 192.168.68.136 - - [08/Feb/2026 15:37:55] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-02-08 15:37:56,053 | INFO | 192.168.68.136 - - [08/Feb/2026 15:37:56] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-02-08 15:43:23,638 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-02-08 15:43:23,848 | INFO |  * Restarting with stat
+2026-02-08 15:43:24,316 | WARNING |  * Debugger is active!
+2026-02-08 15:43:24,317 | INFO |  * Debugger PIN: 134-749-956
+2026-02-08 15:43:27,343 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-02-08 15:43:27,474 | INFO |  * Restarting with stat
+2026-02-08 15:43:27,938 | WARNING |  * Debugger is active!
+2026-02-08 15:43:27,939 | INFO |  * Debugger PIN: 134-749-956
+2026-02-08 15:43:29,963 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-02-08 15:43:30,144 | INFO |  * Restarting with stat
+2026-02-08 15:43:30,892 | WARNING |  * Debugger is active!
+2026-02-08 15:43:30,893 | INFO |  * Debugger PIN: 134-749-956
+2026-02-08 15:43:32,921 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-02-08 15:43:33,121 | INFO |  * Restarting with stat
+2026-02-08 15:43:33,782 | WARNING |  * Debugger is active!
+2026-02-08 15:43:33,783 | INFO |  * Debugger PIN: 134-749-956
+2026-02-08 15:43:35,808 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-02-08 15:43:35,950 | INFO |  * Restarting with stat
+2026-02-08 15:43:36,407 | WARNING |  * Debugger is active!
+2026-02-08 15:43:36,408 | INFO |  * Debugger PIN: 134-749-956
+2026-02-08 15:43:45,472 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-02-08 15:43:45,600 | INFO |  * Restarting with stat
+2026-02-08 15:43:46,051 | WARNING |  * Debugger is active!
+2026-02-08 15:43:46,052 | INFO |  * Debugger PIN: 134-749-956
+2026-02-08 15:43:48,074 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-02-08 15:43:48,201 | INFO |  * Restarting with stat
+2026-02-08 15:43:48,789 | WARNING |  * Debugger is active!
+2026-02-08 15:43:48,790 | INFO |  * Debugger PIN: 134-749-956
+2026-02-08 15:43:49,809 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-02-08 15:43:49,950 | INFO |  * Restarting with stat
+2026-02-08 15:43:50,401 | WARNING |  * Debugger is active!
+2026-02-08 15:43:50,402 | INFO |  * Debugger PIN: 134-749-956
+2026-02-08 15:43:51,635 | INFO | 192.168.68.136 - - [08/Feb/2026 15:43:51] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-08 15:43:51,705 | INFO | 192.168.68.136 - - [08/Feb/2026 15:43:51] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-08 15:43:51,716 | INFO | 192.168.68.136 - - [08/Feb/2026 15:43:51] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-08 15:43:51,823 | INFO | 192.168.68.136 - - [08/Feb/2026 15:43:51] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-08 15:43:57,533 | INFO | 192.168.68.136 - - [08/Feb/2026 15:43:57] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-08 15:43:57,588 | INFO | 192.168.68.136 - - [08/Feb/2026 15:43:57] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-08 15:43:57,592 | INFO | 192.168.68.136 - - [08/Feb/2026 15:43:57] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-08 15:43:57,653 | INFO | 192.168.68.136 - - [08/Feb/2026 15:43:57] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-08 15:43:59,831 | INFO | Received:{'message': 'MAN', 'device': 'pico-w'}
+2026-02-08 15:43:59,843 | INFO | 192.168.68.133 - - [08/Feb/2026 15:43:59] "POST /data HTTP/1.0" 200 -
+2026-02-08 15:44:03,913 | INFO | Received:{'message': 'MAN', 'device': 'pico-w'}
+2026-02-08 15:44:03,923 | INFO | 192.168.68.133 - - [08/Feb/2026 15:44:03] "POST /data HTTP/1.0" 200 -
+2026-02-08 15:44:13,950 | INFO | 192.168.68.136 - - [08/Feb/2026 15:44:13] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-08 15:44:14,006 | INFO | 192.168.68.136 - - [08/Feb/2026 15:44:14] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-08 15:44:14,010 | INFO | 192.168.68.136 - - [08/Feb/2026 15:44:14] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-08 15:44:14,062 | INFO | 192.168.68.136 - - [08/Feb/2026 15:44:14] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-08 15:46:14,487 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-02-08 15:46:14,619 | INFO |  * Restarting with stat
+2026-02-08 15:46:15,337 | WARNING |  * Debugger is active!
+2026-02-08 15:46:15,338 | INFO |  * Debugger PIN: 134-749-956
+2026-02-08 15:46:16,358 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-02-08 15:46:16,490 | INFO |  * Restarting with stat
+2026-02-08 15:46:16,975 | WARNING |  * Debugger is active!
+2026-02-08 15:46:16,976 | INFO |  * Debugger PIN: 134-749-956
+2026-02-08 15:46:17,981 | INFO | 192.168.68.136 - - [08/Feb/2026 15:46:17] "GET / HTTP/1.1" 200 -
+2026-02-08 15:46:18,087 | INFO | 192.168.68.136 - - [08/Feb/2026 15:46:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-08 15:46:29,067 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-02-08 15:46:29,196 | INFO |  * Restarting with stat
+2026-02-08 15:46:29,642 | WARNING |  * Debugger is active!
+2026-02-08 15:46:29,643 | INFO |  * Debugger PIN: 134-749-956
+2026-02-08 15:46:30,393 | INFO | 192.168.68.136 - - [08/Feb/2026 15:46:30] "GET / HTTP/1.1" 200 -
+2026-02-08 15:46:38,704 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-02-08 15:46:38,933 | INFO |  * Restarting with stat
+2026-02-08 15:46:39,850 | WARNING |  * Debugger is active!
+2026-02-08 15:46:39,851 | INFO |  * Debugger PIN: 134-749-956
+2026-02-08 15:46:40,876 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-02-08 15:46:41,007 | INFO |  * Restarting with stat
+2026-02-08 15:46:41,463 | WARNING |  * Debugger is active!
+2026-02-08 15:46:41,464 | INFO |  * Debugger PIN: 134-749-956
+2026-02-08 15:46:41,596 | INFO | 192.168.68.136 - - [08/Feb/2026 15:46:41] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-08 15:46:41,659 | INFO | 192.168.68.136 - - [08/Feb/2026 15:46:41] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-08 15:46:41,661 | INFO | 192.168.68.136 - - [08/Feb/2026 15:46:41] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-08 15:46:41,728 | INFO | 192.168.68.136 - - [08/Feb/2026 15:46:41] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-08 15:46:49,533 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-02-08 15:46:49,690 | INFO |  * Restarting with stat
+2026-02-08 15:46:50,142 | WARNING |  * Debugger is active!
+2026-02-08 15:46:50,143 | INFO |  * Debugger PIN: 134-749-956
+2026-02-08 15:46:54,612 | INFO | 192.168.68.136 - - [08/Feb/2026 15:46:54] "GET / HTTP/1.1" 200 -
+2026-02-08 15:47:05,216 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-02-08 15:47:05,347 | INFO |  * Restarting with stat
+2026-02-08 15:47:05,797 | WARNING |  * Debugger is active!
+2026-02-08 15:47:05,798 | INFO |  * Debugger PIN: 134-749-956
+2026-02-08 15:47:07,820 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-02-08 15:47:07,948 | INFO |  * Restarting with stat
+2026-02-08 15:47:08,402 | WARNING |  * Debugger is active!
+2026-02-08 15:47:08,403 | INFO |  * Debugger PIN: 134-749-956
+2026-02-08 15:47:10,426 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-02-08 15:47:10,564 | INFO |  * Restarting with stat
+2026-02-08 15:47:13,287 | WARNING |  * Debugger is active!
+2026-02-08 15:47:13,288 | INFO |  * Debugger PIN: 134-749-956
+2026-02-08 15:47:14,320 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-02-08 15:47:14,446 | INFO |  * Restarting with stat
+2026-02-08 15:47:14,917 | WARNING |  * Debugger is active!
+2026-02-08 15:47:14,918 | INFO |  * Debugger PIN: 134-749-956
+2026-02-08 15:47:17,960 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-02-08 15:47:18,088 | INFO |  * Restarting with stat
+2026-02-08 15:47:18,565 | WARNING |  * Debugger is active!
+2026-02-08 15:47:18,566 | INFO |  * Debugger PIN: 134-749-956
+2026-02-08 15:47:18,591 | INFO | 192.168.68.136 - - [08/Feb/2026 15:47:18] "GET / HTTP/1.1" 200 -
+2026-02-08 15:47:19,795 | INFO | 192.168.68.136 - - [08/Feb/2026 15:47:19] "GET / HTTP/1.1" 200 -
+2026-02-08 15:53:02,554 | INFO | 192.168.68.136 - - [08/Feb/2026 15:53:02] "GET / HTTP/1.1" 200 -
+2026-02-08 15:53:03,076 | INFO | 192.168.68.136 - - [08/Feb/2026 15:53:03] "GET / HTTP/1.1" 200 -
+2026-02-08 15:53:03,509 | INFO | 192.168.68.136 - - [08/Feb/2026 15:53:03] "GET / HTTP/1.1" 200 -
+2026-02-08 15:57:37,667 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-02-08 15:57:38,047 | INFO |  * Restarting with stat
+2026-02-08 15:57:38,747 | WARNING |  * Debugger is active!
+2026-02-08 15:57:38,748 | INFO |  * Debugger PIN: 134-749-956
+2026-02-08 15:57:39,768 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-02-08 15:57:39,931 | INFO |  * Restarting with stat
+2026-02-08 15:57:40,400 | WARNING |  * Debugger is active!
+2026-02-08 15:57:40,401 | INFO |  * Debugger PIN: 134-749-956
+2026-02-08 15:57:41,956 | INFO | 192.168.68.136 - - [08/Feb/2026 15:57:41] "GET / HTTP/1.1" 200 -
+2026-02-08 15:57:52,464 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-02-08 15:57:52,593 | INFO |  * Restarting with stat
+2026-02-08 15:57:53,044 | WARNING |  * Debugger is active!
+2026-02-08 15:57:53,045 | INFO |  * Debugger PIN: 134-749-956
+2026-02-08 15:57:54,658 | INFO | 192.168.68.136 - - [08/Feb/2026 15:57:54] "GET / HTTP/1.1" 200 -
+2026-02-08 15:57:55,068 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-02-08 15:57:55,196 | INFO |  * Restarting with stat
+2026-02-08 15:57:55,660 | WARNING |  * Debugger is active!
+2026-02-08 15:57:55,661 | INFO |  * Debugger PIN: 134-749-956
+2026-02-08 15:57:59,492 | INFO | 192.168.68.136 - - [08/Feb/2026 15:57:59] "GET / HTTP/1.1" 200 -
+2026-02-08 15:57:59,699 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-02-08 15:57:59,827 | INFO |  * Restarting with stat
+2026-02-08 15:58:00,292 | WARNING |  * Debugger is active!
+2026-02-08 15:58:00,293 | INFO |  * Debugger PIN: 134-749-956
+2026-02-08 15:58:00,317 | INFO | 192.168.68.136 - - [08/Feb/2026 15:58:00] "GET / HTTP/1.1" 200 -
+2026-02-08 15:58:01,652 | INFO | 192.168.68.136 - - [08/Feb/2026 15:58:01] "GET / HTTP/1.1" 200 -
+2026-02-08 16:01:15,878 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-02-08 16:01:16,005 | INFO |  * Restarting with stat
+2026-02-08 16:01:35,108 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.68.134:5000
+2026-02-08 16:01:35,108 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-08 16:01:35,111 | INFO |  * Restarting with stat
+2026-02-08 16:01:35,609 | WARNING |  * Debugger is active!
+2026-02-08 16:01:35,610 | INFO |  * Debugger PIN: 134-749-956
+2026-02-08 16:01:37,371 | INFO | 192.168.68.136 - - [08/Feb/2026 16:01:37] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-08 16:01:37,444 | INFO | 192.168.68.136 - - [08/Feb/2026 16:01:37] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-08 16:01:37,446 | INFO | 192.168.68.136 - - [08/Feb/2026 16:01:37] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-08 16:01:37,639 | INFO | 192.168.68.136 - - [08/Feb/2026 16:01:37] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-08 16:01:47,685 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-02-08 16:01:47,830 | INFO |  * Restarting with stat
+2026-02-08 16:02:30,696 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.68.134:5000
+2026-02-08 16:02:30,696 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-08 16:02:30,698 | INFO |  * Restarting with stat
+2026-02-08 16:02:31,145 | WARNING |  * Debugger is active!
+2026-02-08 16:02:31,146 | INFO |  * Debugger PIN: 134-749-956
+2026-02-08 16:02:32,619 | INFO | 192.168.68.136 - - [08/Feb/2026 16:02:32] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-08 16:02:32,683 | INFO | 192.168.68.136 - - [08/Feb/2026 16:02:32] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-08 16:02:32,684 | INFO | 192.168.68.136 - - [08/Feb/2026 16:02:32] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-08 16:02:32,773 | INFO | 192.168.68.136 - - [08/Feb/2026 16:02:32] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-08 16:02:43,218 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-02-08 16:02:43,363 | INFO |  * Restarting with stat
+2026-02-08 16:02:43,813 | WARNING |  * Debugger is active!
+2026-02-08 16:02:43,814 | INFO |  * Debugger PIN: 134-749-956
+2026-02-08 16:02:47,954 | INFO | 192.168.68.136 - - [08/Feb/2026 16:02:47] "GET / HTTP/1.1" 200 -
+2026-02-08 18:35:03,839 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.68.134:5000
+2026-02-08 18:35:03,844 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-08 18:35:03,853 | INFO |  * Restarting with stat
+2026-02-08 18:35:04,319 | WARNING |  * Debugger is active!
+2026-02-08 18:35:04,320 | INFO |  * Debugger PIN: 130-970-422
+2026-02-08 18:35:05,140 | INFO | Received:{'message': 'MAN', 'device': 'pico-w'}
+2026-02-08 18:35:05,152 | INFO | 192.168.68.133 - - [08/Feb/2026 18:35:05] "POST /data HTTP/1.0" 200 -
+2026-02-08 18:35:09,366 | INFO | 192.168.68.136 - - [08/Feb/2026 18:35:09] "GET / HTTP/1.1" 200 -
+2026-02-08 18:35:09,644 | INFO | 192.168.68.136 - - [08/Feb/2026 18:35:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-08 18:35:10,118 | INFO | 192.168.68.136 - - [08/Feb/2026 18:35:10] "GET / HTTP/1.1" 200 -
+2026-02-08 18:37:34,310 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/server.py', reloading
+2026-02-08 18:37:34,490 | INFO |  * Restarting with stat
+2026-02-08 18:37:34,967 | WARNING |  * Debugger is active!
+2026-02-08 18:37:34,968 | INFO |  * Debugger PIN: 130-970-422
+2026-02-08 18:37:37,997 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/server.py', reloading
+2026-02-08 18:37:38,125 | INFO |  * Restarting with stat
+2026-02-08 18:37:38,613 | WARNING |  * Debugger is active!
+2026-02-08 18:37:38,614 | INFO |  * Debugger PIN: 130-970-422
+2026-02-08 18:37:41,641 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/server.py', reloading
+2026-02-08 18:37:41,768 | INFO |  * Restarting with stat
+2026-02-08 18:37:42,337 | WARNING |  * Debugger is active!
+2026-02-08 18:37:42,338 | INFO |  * Debugger PIN: 130-970-422
+2026-02-08 18:37:53,400 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/server.py', reloading
+2026-02-08 18:37:53,525 | INFO |  * Restarting with stat
+2026-02-08 18:37:53,998 | WARNING |  * Debugger is active!
+2026-02-08 18:37:53,999 | INFO |  * Debugger PIN: 130-970-422
+2026-02-08 18:37:57,026 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/server.py', reloading
+2026-02-08 18:37:57,166 | INFO |  * Restarting with stat
+2026-02-08 18:37:57,653 | WARNING |  * Debugger is active!
+2026-02-08 18:37:57,654 | INFO |  * Debugger PIN: 130-970-422
+2026-02-08 18:40:39,707 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/server.py', reloading
+2026-02-08 18:40:39,879 | INFO |  * Restarting with stat
+2026-02-08 18:40:43,589 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.68.134:5000
+2026-02-08 18:40:43,589 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-08 18:40:43,596 | INFO |  * Restarting with stat
+2026-02-08 18:40:44,069 | WARNING |  * Debugger is active!
+2026-02-08 18:40:44,070 | INFO |  * Debugger PIN: 130-970-422
+2026-02-08 18:41:09,228 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/server.py', reloading
+2026-02-08 18:41:09,489 | INFO |  * Restarting with stat
+2026-02-08 18:41:10,537 | WARNING |  * Debugger is active!
+2026-02-08 18:41:10,538 | INFO |  * Debugger PIN: 130-970-422
+2026-02-08 18:41:12,567 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/server.py', reloading
+2026-02-08 18:41:12,716 | INFO |  * Restarting with stat
+2026-02-08 18:41:13,195 | WARNING |  * Debugger is active!
+2026-02-08 18:41:13,196 | INFO |  * Debugger PIN: 130-970-422
+2026-02-08 18:41:14,180 | INFO | Received:{'message': 'MAN', 'device': 'pico-w'}
+2026-02-08 18:41:14,193 | INFO | 192.168.68.133 - - [08/Feb/2026 18:41:14] "POST /data HTTP/1.0" 200 -
+2026-02-08 18:48:19,167 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/db.py', reloading
+2026-02-08 18:48:19,307 | INFO |  * Restarting with stat
+2026-02-08 18:48:19,798 | WARNING |  * Debugger is active!
+2026-02-08 18:48:19,799 | INFO |  * Debugger PIN: 130-970-422
+2026-02-08 18:48:47,960 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/server.py', reloading
+2026-02-08 18:48:48,140 | INFO |  * Restarting with stat
+2026-02-08 18:49:37,283 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.68.134:5000
+2026-02-08 18:49:37,284 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-08 18:49:37,291 | INFO |  * Restarting with stat
+2026-02-08 18:49:37,745 | WARNING |  * Debugger is active!
+2026-02-08 18:49:37,746 | INFO |  * Debugger PIN: 130-970-422
+2026-02-08 18:49:39,248 | INFO | Received:{'message': 'MAN', 'device': 'pico-w', 'timestamp': datetime.datetime(2026, 2, 8, 18, 49, 39, 248349)}
+2026-02-08 18:49:39,274 | INFO | 192.168.68.133 - - [08/Feb/2026 18:49:39] "[35m[1mPOST /data HTTP/1.0[0m" 500 -
+2026-02-08 18:49:50,825 | INFO |  * Detected change in '/home/pi/projects/ScavengerHunt/Server/server.py', reloading
+2026-02-08 18:49:50,966 | INFO |  * Restarting with stat
+2026-02-08 18:49:55,568 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.68.134:5000
+2026-02-08 18:49:55,569 | INFO | [33mPress CTRL+C to quit[0m
+2026-02-08 18:49:55,577 | INFO |  * Restarting with stat
+2026-02-08 18:49:56,025 | WARNING |  * Debugger is active!
+2026-02-08 18:49:56,026 | INFO |  * Debugger PIN: 130-970-422
+2026-02-08 18:50:02,118 | INFO | Received:{'message': 'MAN', 'device': 'pico-w', 'timestamp': '2026-02-08 18:50:02.118102'}
+2026-02-08 18:50:02,132 | INFO | 192.168.68.133 - - [08/Feb/2026 18:50:02] "POST /data HTTP/1.0" 200 -
+2026-02-08 18:50:05,238 | INFO | 192.168.68.136 - - [08/Feb/2026 18:50:05] "GET / HTTP/1.1" 200 -
+2026-02-08 18:50:06,273 | INFO | 192.168.68.136 - - [08/Feb/2026 18:50:06] "GET / HTTP/1.1" 200 -
+2026-02-08 18:50:16,010 | INFO | 192.168.68.136 - - [08/Feb/2026 18:50:16] "GET / HTTP/1.1" 200 -
+2026-02-08 19:30:25,851 | INFO | 192.168.68.136 - - [08/Feb/2026 19:30:25] "GET / HTTP/1.1" 200 -
+2026-02-08 19:35:58,590 | INFO | 192.168.68.136 - - [08/Feb/2026 19:35:58] "GET / HTTP/1.1" 200 -
+2026-03-05 17:29:59,854 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.68.138:5000
+2026-03-05 17:29:59,855 | INFO | [33mPress CTRL+C to quit[0m
+2026-03-05 17:29:59,858 | INFO |  * Restarting with stat
+2026-03-05 17:30:00,488 | WARNING |  * Debugger is active!
+2026-03-05 17:30:00,490 | INFO |  * Debugger PIN: 145-402-764
+2026-03-05 17:35:41,683 | INFO | Received:{'message': 'MAN', 'device': 'pico-w', 'timestamp': '2026-03-05 17:35:41.683706'}
+2026-03-05 17:35:41,702 | INFO | 192.168.68.128 - - [05/Mar/2026 17:35:41] "POST /data HTTP/1.0" 200 -
+2026-03-05 17:35:46,172 | INFO | Received:{'message': 'MAN', 'device': 'pico-w', 'timestamp': '2026-03-05 17:35:46.172388'}
+2026-03-05 17:35:46,184 | INFO | 192.168.68.128 - - [05/Mar/2026 17:35:46] "POST /data HTTP/1.0" 200 -
+2026-03-05 17:36:32,027 | INFO | 192.168.68.103 - - [05/Mar/2026 17:36:32] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2026-03-05 17:36:46,632 | INFO | 192.168.68.103 - - [05/Mar/2026 17:36:46] "[31m[1mPOST /data HTTP/1.1[0m" 415 -
+2026-03-05 17:37:03,780 | INFO | Received:{'device': 'insomnia', 'message': 'MAN', 'timestamp': '2026-03-05 17:37:03.780376'}
+2026-03-05 17:37:03,792 | INFO | 192.168.68.103 - - [05/Mar/2026 17:37:03] "POST /data HTTP/1.1" 200 -
+2026-03-05 17:37:10,548 | INFO | Received:{'message': 'MAN', 'device': 'pico-w', 'timestamp': '2026-03-05 17:37:10.548679'}
+2026-03-05 17:37:10,558 | INFO | 192.168.68.128 - - [05/Mar/2026 17:37:10] "POST /data HTTP/1.0" 200 -
+2026-03-05 17:37:12,281 | INFO | Received:{'device': 'insomnia', 'message': 'MAN', 'timestamp': '2026-03-05 17:37:12.281741'}
+2026-03-05 17:37:12,292 | INFO | 192.168.68.103 - - [05/Mar/2026 17:37:12] "POST /data HTTP/1.1" 200 -

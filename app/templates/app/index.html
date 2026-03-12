@@ -1,8 +1,7 @@
-{% load static %}
+{% extends "base.html" %}
 
-<head>
-        <link rel="stylesheet" href="{% static "style.css" %}">
-</head>
-
- 
-<a class="button" href="{% url "app:requests" %}">Requests</a>
+{% block page_content %}
+{% if user.is_staff %}
+	<a class="button" href="{% url "app:requests" %}">Requests</a>
+{% endif %}
+{% endblock page_content %}
