@@ -28,4 +28,4 @@ class CustomUser(AbstractUser):
         ),
     )
       
-	current_clue = models.ForeignKey(Clue)
+	current_clue = models.IntegerField(default=0)

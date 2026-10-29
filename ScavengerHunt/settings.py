@@ -31,8 +31,12 @@ SECRET_KEY = 'django-insecure-7-#t#ny+)ilhzg0#t@b^bq47pp1ls__1z$$^!m^sfw&zrvlpg*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['127.0.0.1', 'hunt.atticusfw.dev']
 
+CSRF_TRUSTED_ORIGINS=[]
+
+for i in ALLOWED_HOSTS:
+	CSRF_TRUSTED_ORIGINS.append("https://" + i)
 
 # Application definition
 
@@ -121,6 +125,7 @@ USE_L10N = True
 
 USE_TZ = True
 
+LOGIN_URL = '/account/login/'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
@@ -129,7 +134,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_DIRS = [
     f'{BASE_DIR}/static',
 ]
-STATIC_URL = '/static/'
+STATIC_URL = '/huntStatic/'
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
